@@ -1,0 +1,108 @@
+@media (max-width: 475px) {
+
+    .footer {
+        background-color: var(--cor0);
+        width: 100%;
+        position: absolute;
+    }
+
+    .container-icone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 0;
+    }
+
+    .container-icone a {
+        margin: 0 4px;
+        font-size: 22px;
+    }
+
+    .icone-footer {
+        padding: 1px;
+        border-radius: 15px;
+        border: 1px solid var(--cor4);
+        color: var(--cor0);
+        background-color: var(--cor4);
+    }
+
+    .criador {
+        color: var(--cor5);
+        padding: 17px 0;
+        font-size: 12px;
+        font-weight: 200;
+        font-family: var(--font);
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .direitos {
+        color: var(--cor5);
+        padding: 17px 0;
+        font-size: 9px;
+        font-weight: 200;
+        font-family: var(--font);
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 476px) {
+
+    .footer {
+        background-color: var(--cor0);
+        width: 100%;
+        position: absolute;
+    }
+
+    .container-icone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 0;
+    }
+
+    .container-icone a {
+        margin: 0 4px;
+        font-size: 22px;
+    }
+
+    .icone-footer {
+        padding: 1px;
+        border-radius: 15px;
+        border: 1px solid var(--cor4);
+        color: var(--cor0);
+        background-color: var(--cor4);
+    }
+
+    .criador {
+        color: var(--cor5);
+        padding: 17px 0;
+        font-size: 13px;
+        font-weight: 200;
+        font-family: var(--font);
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .direitos {
+        color: var(--cor5);
+        padding: 17px 0;
+        font-size: 10px;
+        font-weight: 200;
+        font-family: var(--font);
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+

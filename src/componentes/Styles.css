@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #000000;
+    --cor1: #ffffff;
+    --cor2: #0424D9;
+    --cor3: #2793F2;
+    --cor4: #353535;
+    --cor5: #7e7e7e;
+    --font: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+@media (max-width: 475px) {
+
+    main {
+        margin-bottom: 25px;
+    }
+
+    .conteudo {
+        margin: 0 7%;
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+  
+    .main h1{
+        color: var(--cor0);
+        font-size: 21px;
+        text-align: left;
+    }
+
+    .main h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--cor2);
+    }
+
+    .main h2::before {
+        animation: words 20s infinite;
+    }
+
+    .main h2::after {
+        content: '';
+        background-color: var(--cor1);
+        position: absolute;
+        width: calc(100% +8px);
+        height: 32px;
+        border-left: 2px solid var(--cor2);
+        right: 1px;
+        animation: cursor .6s infinite, typing 20s steps(14) infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid var(--cor1);
+        }
+    }
+
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+
+    .icone {
+        margin: 10px 4px;
+        font-size: 27px;
+        color: var(--cor0);
+    }
+
+    .icone:hover {
+        color: var(--cor2);
+        transition: .9ms;
+    }
+
+    .btn {
+        position: relative;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 45px;
+        width: 130px;
+        opacity: 1;
+        background-color: var(--cor0);
+        border: 1px solid rgba(43, 0, 0, 0.6);
+    }
+    .btn:hover {
+        background-color: var(--cor2);
+        transition: .9ms;
+        border: 1px solid var(--cor2);
+    }
+
+    .btn .btnSpan {
+        font-family: var(--font);
+        color: var(--cor1);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+    .btnSpan:hover {
+        animation: btnrotate 0.7s ease-in-out both;
+    }
+
+    .btn:hover .btnSpan {
+        animation: btnstorm 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+    }
+
+    @keyframes btnrotate {
+        0% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+            transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+            transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+            transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes btnstorm {
+        0% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+        25% {
+            transform: translate3d(4px, 0, 0) translateZ(0);
+        }
+        50% {
+            transform: translate3d(-3px, 0, 0) translateZ(0);
+        }
+        75% {
+            transform: translate3d(2px, 0, 0) translateZ(0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+    }   
+}
+
+@media (min-width: 476px) and (max-width: 639px) {
+    main {
+        margin-bottom: 25px;
+    }
+
+    .conteudo {
+        margin: 0 13%;
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+  
+    .main h1{
+        color: var(--cor0);
+        font-size: 23px;
+        text-align: left;
+    }
+
+    .main h2 {
+        font-size: 27px;
+        font-weight: 700;
+        color: var(--cor2);
+    }
+
+    .main h2::before {
+        animation: words 20s infinite;
+    }
+
+    .main h2::after {
+        content: '';
+        background-color: var(--cor1);
+        position: absolute;
+        width: calc(100% +8px);
+        height: 32px;
+        border-left: 2px solid var(--cor2);
+        right: 11px;
+        animation: cursor .6s infinite, typing 20s steps(14) infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid var(--cor1);
+        }
+    }
+
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+
+    .icone {
+        margin: 10px 4px;
+        font-size: 27px;
+        color: var(--cor0);
+    }
+
+    .icone:hover {
+        color: var(--cor2);
+        transition: .9ms;
+    }
+
+    .btn {
+        position: relative;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 45px;
+        width: 130px;
+        opacity: 1;
+        background-color: var(--cor0);
+        border: 1px solid rgba(43, 0, 0, 0.6);
+    }
+    .btn:hover {
+        background-color: var(--cor2);
+        transition: .9ms;
+        border: 1px solid var(--cor2);
+    }
+
+    .btn .btnSpan {
+        font-family: var(--font);
+        color: var(--cor1);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+    .btnSpan:hover {
+        animation: btnrotate 0.7s ease-in-out both;
+    }
+
+    .btn:hover .btnSpan {
+        animation: btnstorm 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+    }
+
+    @keyframes btnrotate {
+        0% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+            transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+            transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+            transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes btnstorm {
+        0% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+        25% {
+            transform: translate3d(4px, 0, 0) translateZ(0);
+        }
+        50% {
+            transform: translate3d(-3px, 0, 0) translateZ(0);
+        }
+        75% {
+            transform: translate3d(2px, 0, 0) translateZ(0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+
+    main {
+        margin-bottom: 25px;
+    }
+
+    .conteudo {
+        margin: 0 13%;
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+  
+    .main h1{
+        color: var(--cor0);
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .main h2 {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--cor2);
+    }
+
+    .main h2::before {
+        animation: words 20s infinite;
+    }
+
+    .main h2::after {
+        content: '';
+        background-color: var(--cor1);
+        position: absolute;
+        width: calc(100% +8px);
+        height: 32px;
+        border-left: 2px solid var(--cor2);
+        right: 11px;
+        animation: cursor .6s infinite, typing 20s steps(14) infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid var(--cor1);
+        }
+    }
+
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+
+    .icone {
+        margin: 10px 4px;
+        font-size: 27px;
+        color: var(--cor0);
+    }
+
+    .icone:hover {
+        color: var(--cor2);
+        transition: .9ms;
+    }
+
+    .btn {
+        position: relative;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 45px;
+        width: 130px;
+        opacity: 1;
+        background-color: var(--cor0);
+        border: 1px solid rgba(43, 0, 0, 0.6);
+    }
+    .btn:hover {
+        background-color: var(--cor2);
+        transition: .9ms;
+        border: 1px solid var(--cor2);
+    }
+
+    .btn .btnSpan {
+        font-family: var(--font);
+        color: var(--cor1);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+    .btnSpan:hover {
+        animation: btnrotate 0.7s ease-in-out both;
+    }
+
+    .btn:hover .btnSpan {
+        animation: btnstorm 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+    }
+
+    @keyframes btnrotate {
+        0% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+            transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+            transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+            transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes btnstorm {
+        0% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+        25% {
+            transform: translate3d(4px, 0, 0) translateZ(0);
+        }
+        50% {
+            transform: translate3d(-3px, 0, 0) translateZ(0);
+        }
+        75% {
+            transform: translate3d(2px, 0, 0) translateZ(0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .main {
+        padding: 0 5em;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        width: 17rem;
+    }
+
+    .main h1{
+        color: var(--cor0);
+        font-size: 21px;
+        text-align: left;
+    }
+
+    .main h2 {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--cor2);
+    }
+
+    .main h2::before {
+        animation: words 20s infinite;
+    }
+
+    .main h2::after {
+        content: '';
+        background-color: var(--cor1);
+        position: absolute;
+        width: calc(100% +8px);
+        height: 46px;
+        border-left: 2px solid var(--cor2);
+        right: -2px;
+        animation: cursor .6s infinite, typing 20s steps(14) infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--cor2)
+    }
+
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid var(--cor1);
+        }
+    }
+
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+
+    .icone {
+        margin: 10px 4px;
+        font-size: 23px;
+        color: var(--cor0);
+    }
+
+    .icone:hover {
+        color: var(--cor2);
+        transition: .9ms;
+    }
+
+    .btn {
+        position: relative;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 45px;
+        width: 119px;
+        opacity: 1;
+        background-color: var(--cor0);
+        border: 1px solid rgba(43, 0, 0, 0.6);
+    }
+
+    .btn:hover {
+        background-color: var(--cor2);
+        transition: .9ms;
+        border: 1px solid var(--cor2);
+    }
+
+    .btn .btnSpan {
+        font-family: var(--font);
+        color: var(--cor1);
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+    .btnSpan:hover {
+        animation: btnrotate 0.7s ease-in-out both;
+    }
+
+    .btn:hover .btnSpan {
+        animation: btnstorm 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+    }
+
+    @keyframes btnrotate {
+        0% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+            transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+            transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+            transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes btnstorm {
+        0% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+        25% {
+            transform: translate3d(4px, 0, 0) translateZ(0);
+        }
+        50% {
+            transform: translate3d(-3px, 0, 0) translateZ(0);
+        }
+        75% {
+            transform: translate3d(2px, 0, 0) translateZ(0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .main {
+        padding: 0 5em;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        width: 20rem;
+    }
+
+    .main h1{
+        color: var(--cor0);
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .main h2 {
+        font-size: 42px;
+        font-weight: 700;
+        color: var(--cor2);
+    }
+
+    .main h2::before {
+        animation: words 20s infinite;
+    }
+
+    .main h2::after {
+        content: '';
+        background-color: var(--cor1);
+        position: absolute;
+        width: calc(100% +8px);
+        height: 46px;
+        border-left: 2px solid var(--cor2);
+        right: -2px;
+        animation: cursor .6s infinite, typing 20s steps(14) infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--cor2)
+    }
+
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid var(--cor1);
+        }
+    }
+
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+
+
+
+    .icone {
+        margin: 10px 4px;
+        font-size: 27px;
+        color: var(--cor0);
+    }
+
+    .icone:hover {
+        color: var(--cor2);
+        transition: .9ms;
+    }
+
+    .btn {
+        position: relative;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 45px;
+        width: 130px;
+        opacity: 1;
+        background-color: var(--cor0);
+        border: 1px solid rgba(43, 0, 0, 0.6);
+    }
+
+    .btn:hover {
+        background-color: var(--cor2);
+        transition: .9ms;
+        border: 1px solid var(--cor2);
+    }
+
+    .btn .btnSpan {
+        font-family: var(--font);
+        color: var(--cor1);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+    .btnSpan:hover {
+        animation: btnrotate 0.7s ease-in-out both;
+    }
+
+    .btn:hover .btnSpan {
+        animation: btnstorm 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+    }
+
+    @keyframes btnrotate {
+        0% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+            transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+            transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+            transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes btnstorm {
+        0% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+        25% {
+            transform: translate3d(4px, 0, 0) translateZ(0);
+        }
+        50% {
+            transform: translate3d(-3px, 0, 0) translateZ(0);
+        }
+        75% {
+            transform: translate3d(2px, 0, 0) translateZ(0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .main {
+        padding: 0 5em;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        width: 22rem;
+    }
+
+    .main h1{
+        color: var(--cor0);
+        font-size: 31px;
+        text-align: left;
+    }
+
+    .main h2 {
+        font-size: 46px;
+        font-weight: 700;
+        color: var(--cor2);
+    }
+
+    .main h2::before {
+        animation: words 20s infinite;
+    }
+
+    .main h2::after {
+        content: '';
+        background-color: var(--cor1);
+        position: absolute;
+        width: calc(100% +8px);
+        height: 55px;
+        border-left: 2px solid var(--cor2);
+        right: -2px;
+        animation: cursor .6s infinite, typing 20s steps(14) infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--cor2)
+    }
+
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid var(--cor1);
+        }
+    }
+
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+
+    .icone {
+        margin: 10px 4px;
+        font-size: 30px;
+        color: var(--cor0);
+    }
+
+    .icone:hover {
+        color: var(--cor2);
+        transition: .9ms;
+    }
+
+    .btn {
+        position: relative;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 49px;
+        width: 140px;
+        opacity: 1;
+        background-color: var(--cor0);
+        border: 1px solid rgba(43, 0, 0, 0.6);
+    }
+
+    .btn:hover {
+        background-color: var(--cor2);
+        transition: .9ms;
+        border: 1px solid var(--cor2);
+    }
+
+    .btn .btnSpan {
+        font-family: var(--font);
+        color: var(--cor1);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+    .btnSpan:hover {
+        animation: btnrotate 0.7s ease-in-out both;
+    }
+
+    .btn:hover .btnSpan {
+        animation: btnstorm 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+    }
+
+    @keyframes btnrotate {
+        0% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+            transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+            transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+            transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+            transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes btnstorm {
+        0% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+        25% {
+            transform: translate3d(4px, 0, 0) translateZ(0);
+        }
+        50% {
+            transform: translate3d(-3px, 0, 0) translateZ(0);
+        }
+        75% {
+            transform: translate3d(2px, 0, 0) translateZ(0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0) translateZ(0);
+        }
+    }
+}
+

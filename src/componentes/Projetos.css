@@ -1,0 +1,1046 @@
+@media (max-width: 475px) {
+
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container,
+    .card-container2 {
+        margin: 45px 30px;
+    }
+
+    .text-card,
+    .text-card2  {
+        padding: 30px 0;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card h3,
+    .text-card2 h3 {
+        padding-left: 6px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p,
+    .text-card2 p {
+        padding-left: 6px;
+        color: var(--cor0);
+        font-size: 13px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        height: 14em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        height: 14em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        height: 14em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 23px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 476px) and (max-width: 639px) {
+    
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container,
+    .card-container2 {
+        margin: 30px 45px;
+    }
+
+    .text-card,
+    .text-card2  {
+        padding: 30px 0;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card h3,
+    .text-card2 h3 {
+        padding-left: 6px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p,
+    .text-card2 p {
+        padding-left: 6px;
+        color: var(--cor0);
+        font-size: 15px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        height: 14em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        height: 14em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        height: 14em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 24px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container,
+    .card-container2 {
+        margin: 35px 55px;
+    }
+
+    .text-card,
+    .text-card2  {
+        padding: 30px 0;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card h3,
+    .text-card2 h3 {
+        padding-left: 6px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p,
+    .text-card2 p {
+        padding-left: 6px;
+        color: var(--cor0);
+        font-size: 15px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        height: 14em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        height: 14em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        height: 14em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 26px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container {
+        margin: 90px 6%;
+        display: flex;
+    }
+
+    .card-container2 {
+        flex-direction: row-reverse;
+        text-align: end;
+        margin: 40px 6%;
+        display: flex;
+    }
+
+    .text-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card h3 {
+        padding-left: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card2 h3 {
+        padding-right: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p {
+        padding-left: 10px;
+        color: var(--cor0);
+        font-size: 13px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .text-card2 p {
+        padding-right: 10px;
+        color: var(--cor0);
+        font-size: 13px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        width: 153rem;
+        height: 13em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        width: 153rem;
+        height: 13em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        width: 153rem;
+        height: 13em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 24px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container {
+        margin: 90px 13%;
+        display: flex;
+    }
+
+    .card-container2 {
+        flex-direction: row-reverse;
+        text-align: end;
+        margin: 90px 15%;
+        display: flex;
+    }
+
+    .text-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text-card h3 {
+        padding-left: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card2 h3 {
+        padding-right: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p {
+        padding-left: 10px;
+        color: var(--cor0);
+        font-size: 15px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .text-card2 p {
+        padding-right: 10px;
+        color: var(--cor0);
+        font-size: 15px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        width: 163rem;
+        height: 16em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        width: 163rem;
+        height: 16em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        width: 163rem;
+        height: 16em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 24px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container {
+        margin: 90px 15%;
+        display: flex;
+    }
+
+    .card-container2 {
+        flex-direction: row-reverse;
+        text-align: end;
+        margin: 90px 15%;
+        display: flex;
+    }
+
+    .text-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .text-card2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .text-card h3 {
+        padding-left: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card2 h3 {
+        padding-right: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p {
+        padding-left: 10px;
+        color: var(--cor0);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .text-card2 p {
+        padding-right: 10px;
+        color: var(--cor0);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        width: 163rem;
+        height: 18em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        width: 163rem;
+        height: 18em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        width: 163rem;
+        height: 18em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 24px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .projeto {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--cor2);
+    }
+
+    .card-container {
+        margin: 90px 15%;
+        display: flex;
+    }
+
+    .card-container2 {
+        flex-direction: row-reverse;
+        text-align: end;
+        margin: 90px 15%;
+        display: flex;
+    }
+
+    .text-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .text-card2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: end;
+        color: var(--cor0);
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .text-card h3 {
+        padding-left: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card2 h3 {
+        padding-right: 10px;
+        color: var(--cor2);
+        text-transform: uppercase;
+        font-family: var(--font);
+    }
+
+    .text-card p {
+        padding-left: 10px;
+        color: var(--cor0);
+        font-size: 20px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .text-card2 p {
+        padding-right: 10px;
+        color: var(--cor0);
+        font-size: 20px;
+        font-weight: 400;
+        font-family: var(--font);
+    }
+
+    .card1 {
+        width: 193rem;
+        height: 24em;
+        position: relative;
+        background: url(img/aluraBooks.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card2 {
+        width: 193rem;
+        height: 24em;
+        position: relative;
+        background: url(img/analisadorDeNumeros.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card3 {
+        width: 193rem;
+        height: 24em;
+        position: relative;
+        background: url(img/jogoNumeroSecreto.png) center;
+        background-size: cover;
+        color: var(--cor1);
+    }
+
+    .card1 .projeto, 
+    .card2 .projeto,
+    .card3 .projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.596);
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .card1:hover .projeto, 
+    .card2:hover .projeto,
+    .card3:hover .projeto {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+
+    .card1 h1, 
+    .card2 h1,
+    .card3 h1 {
+        font-size: 24px;
+    }
+
+    .card1 .projeto-btn, 
+    .card2 .projeto-btn,
+    .card3 .projeto-btn {
+        padding: 0.6em 1.3em;
+        text-decoration: none;
+        border: 2px var(--cor2) solid;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    .card1 .projeto-btn:hover, 
+    .card2 .projeto-btn:hover,
+    .card3 .projeto-btn:hover {
+        background: var(--cor2);
+    }
+
+    .card1 .projeto-btn, .card1 h1, 
+    .card2 .projeto-btn, .card2 h1,
+    .card3 .projeto-btn, .card3 h1 {
+        font-family: var(--font);
+        transition: 0.3s;
+        transform: translateY(-20px);
+        color: var(--cor1);
+        margin-top: 15px;
+    }
+
+    .card1:hover .projeto-btn, .card1:hover h1, 
+    .card2:hover .projeto-btn, .card2:hover h1,
+    .card3:hover .projeto-btn, .card3:hover h1 {
+        transform: translateY(0);
+    }
+}
