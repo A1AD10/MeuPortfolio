@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/A1AD10/MeuPortfolio/static/css/main.2b0a570b.css",
-    "main.js": "/A1AD10/MeuPortfolio/static/js/main.f7778039.js",
-    "static/js/453.a6a97343.chunk.js": "/A1AD10/MeuPortfolio/static/js/453.a6a97343.chunk.js",
-    "static/media/AladioCurrículo.pdf": "/A1AD10/MeuPortfolio/static/media/AladioCurrículo.24c5c4ebc7bc70206b6b.pdf",
-    "static/media/aluraBooks.png": "/A1AD10/MeuPortfolio/static/media/aluraBooks.2cb11a6c61601175143b.png",
-    "static/media/jogoNumeroSecreto.png": "/A1AD10/MeuPortfolio/static/media/jogoNumeroSecreto.7f32b2bd00ceca9d642f.png",
-    "static/media/react.png": "/A1AD10/MeuPortfolio/static/media/react.ccbd9d34a638b8556e62.png",
-    "static/media/analisadorDeNumeros.png": "/A1AD10/MeuPortfolio/static/media/analisadorDeNumeros.d4289b0f6df9e235dc1c.png",
-    "static/media/vscode.png": "/A1AD10/MeuPortfolio/static/media/vscode.350ae7f4119f44d61f91.png",
-    "static/media/css.png": "/A1AD10/MeuPortfolio/static/media/css.4061c54b50fc021b8c57.png",
-    "index.html": "/A1AD10/MeuPortfolio/index.html",
-    "main.2b0a570b.css.map": "/A1AD10/MeuPortfolio/static/css/main.2b0a570b.css.map",
-    "main.f7778039.js.map": "/A1AD10/MeuPortfolio/static/js/main.f7778039.js.map",
-    "453.a6a97343.chunk.js.map": "/A1AD10/MeuPortfolio/static/js/453.a6a97343.chunk.js.map"
+    "main.css": "/MeuPortfolio/static/css/main.10e5635d.css",
+    "main.js": "/MeuPortfolio/static/js/main.64e7c1d5.js",
+    "static/js/453.a6a97343.chunk.js": "/MeuPortfolio/static/js/453.a6a97343.chunk.js",
+    "static/media/AladioCurrículo.pdf": "/MeuPortfolio/static/media/AladioCurrículo.24c5c4ebc7bc70206b6b.pdf",
+    "static/media/aluraBooks.png": "/MeuPortfolio/static/media/aluraBooks.2cb11a6c61601175143b.png",
+    "static/media/jogoNumeroSecreto.png": "/MeuPortfolio/static/media/jogoNumeroSecreto.7f32b2bd00ceca9d642f.png",
+    "static/media/react.png": "/MeuPortfolio/static/media/react.ccbd9d34a638b8556e62.png",
+    "static/media/analisadorDeNumeros.png": "/MeuPortfolio/static/media/analisadorDeNumeros.d4289b0f6df9e235dc1c.png",
+    "static/media/vscode.png": "/MeuPortfolio/static/media/vscode.350ae7f4119f44d61f91.png",
+    "static/media/css.png": "/MeuPortfolio/static/media/css.4061c54b50fc021b8c57.png",
+    "index.html": "/MeuPortfolio/index.html",
+    "main.10e5635d.css.map": "/MeuPortfolio/static/css/main.10e5635d.css.map",
+    "main.64e7c1d5.js.map": "/MeuPortfolio/static/js/main.64e7c1d5.js.map",
+    "453.a6a97343.chunk.js.map": "/MeuPortfolio/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b0a570b.css",
-    "static/js/main.f7778039.js"
+    "static/css/main.10e5635d.css",
+    "static/js/main.64e7c1d5.js"
   ]
 }
