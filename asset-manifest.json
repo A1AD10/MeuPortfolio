@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MeuPortfolio/static/css/main.10e5635d.css",
+    "main.css": "/MeuPortfolio/static/css/main.6051fc57.css",
     "main.js": "/MeuPortfolio/static/js/main.64e7c1d5.js",
     "static/js/453.a6a97343.chunk.js": "/MeuPortfolio/static/js/453.a6a97343.chunk.js",
     "static/media/AladioCurrículo.pdf": "/MeuPortfolio/static/media/AladioCurrículo.24c5c4ebc7bc70206b6b.pdf",
@@ -11,12 +11,12 @@
     "static/media/vscode.png": "/MeuPortfolio/static/media/vscode.350ae7f4119f44d61f91.png",
     "static/media/css.png": "/MeuPortfolio/static/media/css.4061c54b50fc021b8c57.png",
     "index.html": "/MeuPortfolio/index.html",
-    "main.10e5635d.css.map": "/MeuPortfolio/static/css/main.10e5635d.css.map",
+    "main.6051fc57.css.map": "/MeuPortfolio/static/css/main.6051fc57.css.map",
     "main.64e7c1d5.js.map": "/MeuPortfolio/static/js/main.64e7c1d5.js.map",
     "453.a6a97343.chunk.js.map": "/MeuPortfolio/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e5635d.css",
+    "static/css/main.6051fc57.css",
     "static/js/main.64e7c1d5.js"
   ]
 }
