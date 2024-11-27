@@ -58,7 +58,7 @@ export default function CardProjetos() {
                             </div>
 
                             <div className="w-5 lg:w-8">
-                                <div><a href={item.endereco}><SvgLink color={'#000'} /></a></div>
+                                <div><a href={item.endereco} target="_blank"><SvgLink color={'#000'} /></a></div>
                             </div>
 
                         </div>
