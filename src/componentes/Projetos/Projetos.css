@@ -1,0 +1,45 @@
+
+
+.swiper-wrapper {
+    padding-bottom: 5rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #0424D9 !important; /* Cor do ponto ativo */
+    opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #0424D9 !important;
+    top: 90% !important;
+    margin: 0 12rem;
+}
+
+.swiper-button-prev::after {
+    font-weight: 900 !important;
+    font-size: 14px !important;
+}
+
+.swiper-button-next::after {
+    font-weight: 900 !important;
+    font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        z-index: 100 !important;
+        margin: 0 4rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 85% !important;
+        margin: 0;
+    }
+}
