@@ -9,8 +9,9 @@ Rápida descrição do objetivo de fazer esse projeto
 | :rocket: URL         | [a1ad10.github.io/MeuPortfolio/](https://meu-portfolio-opal-pi.vercel.app/)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![Captura de tela 2024-05-02 164656](https://github.com/A1AD10/MeuPortfolio/assets/109392329/c8773d4b-265a-4191-90af-af86b0348e94#vitrinedev)
+![capa](https://github.com/user-attachments/assets/95dfc08c-6b66-4ae8-bbcb-a747a5a7f4d6)
 
 ## Detalhes do projeto
+
 
 Links para contato e projetos realizados
