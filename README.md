@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Portifólio**
 | :label: Tecnologias | react, tailwind (tecnologias utilizadas)
-| :rocket: URL         | a1ad10.github.io/MeuPortfolio/
+| :rocket: URL         | [a1ad10.github.io/MeuPortfolio/](https://meu-portfolio-opal-pi.vercel.app/)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![Captura de tela 2024-05-02 164656](https://github.com/A1AD10/MeuPortfolio/assets/109392329/c8773d4b-265a-4191-90af-af86b0348e94#vitrinedev)
