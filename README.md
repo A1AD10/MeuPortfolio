@@ -1,8 +1,17 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rápida descrição do objetivo de fazer esse projeto
 
-Currently, two official plugins are available:
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Portifólio**
+| :label: Tecnologias | react, tailwind (tecnologias utilizadas)
+| :rocket: URL         | [a1ad10.github.io/MeuPortfolio/](https://meu-portfolio-opal-pi.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![capa](https://github.com/user-attachments/assets/95dfc08c-6b66-4ae8-bbcb-a747a5a7f4d6)
+
+## Detalhes do projeto
+
+
+Links para contato e projetos realizados
