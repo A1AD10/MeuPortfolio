@@ -9,20 +9,20 @@ export default function Footer() {
 
     return (
         <footer>
-            <div className="bg-preto w-full absolute">
-                <p className="text-cinzaClaro py-4 text-base font-extralight flex items-center justify-center">Criado por Aládio</p>
+            <div className="bg-preto w-full absolute dark:bg-dkFooter">
+                <p className="text-cinzaClaro py-4 text-base font-extralight flex items-center justify-center dark:text-branco">Criado por Aládio</p>
                     <div className="flex items-center justify-center py-1">
                         <a className="mx-1 text-2xl" href="https://github.com/A1AD10" target="_blank">
-                            <FaGithub className="p-[1px] rounded-2xl border divide-solid border-cinza text-preto bg-cinza"/>
+                            <FaGithub className="p-[1px] rounded-2xl border divide-solid border-cinza text-preto bg-cinza dark:text-dark dark:bg-darkAzulClaro"/>
                         </a>
                         <a className="mx-1 text-2xl" href="https://www.linkedin.com/in/aládio-junior285" target="_blank">
-                            <FaLinkedin className="p-[1px] rounded-2xl border divide-solid border-cinza text-preto bg-cinza"/>
+                            <FaLinkedin className="p-[1px] rounded-2xl border divide-solid border-cinza text-preto bg-cinza dark:text-dark dark:bg-darkAzulClaro"/>
                         </a>
                         <a className="mx-1 text-2xl" href={Curriculo} download="AladioCurrículo.pdf">
-                            <FaFileArrowDown className="p-[1px] rounded-2xl border divide-solid border-cinza text-preto bg-cinza"/>
+                            <FaFileArrowDown className="p-[1px] rounded-2xl border divide-solid border-cinza text-preto bg-cinza dark:text-dark dark:bg-darkAzulClaro"/>
                         </a>
                     </div>
-                <p className="text-cinzaClaro py-4 text-xs font-extralight flex items-center justify-center">&copy; {ano} Copyright. Todos os direitos reservados.</p>
+                <p className="text-cinzaClaro py-4 text-xs font-extralight flex items-center justify-center dark:text-branco">&copy; {ano} Copyright. Todos os direitos reservados.</p>
             </div>
         </footer>
     )

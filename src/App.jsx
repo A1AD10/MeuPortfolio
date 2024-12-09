@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import './App.css'
 import React from 'react'
 import Nav from './componentes/Menu/Navbar'
@@ -9,12 +10,24 @@ import Footer from './componentes/Footer'
 
 export default function App() {
 
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+    
+  }, [darkMode]);
+
   return (
-    <div className="font-montserrat tracking-wider h-5/6">
-      <Nav />
-      <Capa />
+    <div className="font-montserrat tracking-wider h-5/6 dark:bg-dark">
+      <Nav setDarkMode={setDarkMode} darkMode={darkMode}/>
+      <Capa darkMode={darkMode}/>
       <Habilidades />
-      <Projetos />
+      <Projetos darkMode={darkMode}/>
       <Contato />
       <Footer />      
     </div>

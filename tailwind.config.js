@@ -10,6 +10,10 @@ export default {
         azulClaro: '#2793F2',
         cinza: '#353535',
         cinzaClaro: '#7e7e7e',
+
+        dark: '#010830',
+        darkAzulClaro: '#77BFFF',
+        dkFooter: '#010624'
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
@@ -20,5 +24,6 @@ export default {
     },
   },
   plugins: [],
+  darkMode: 'class'
 }
 

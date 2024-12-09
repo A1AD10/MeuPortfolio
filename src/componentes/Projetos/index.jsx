@@ -3,7 +3,7 @@ import './Projetos.css'
 import ScrollReveal from "scrollreveal";
 import CardProjetos from "./CardProjetos";
 
-export default function Projetos() {
+export default function Projetos({ darkMode }) {
 
     useEffect(() => {
         const sr = ScrollReveal();
@@ -19,8 +19,8 @@ export default function Projetos() {
     return (
         <section className="h-screen">
             <div id="projetos" className="w-3/4 mx-auto">
-                <h1 className="my-4 text-center uppercase text-xl font-semibold md:text-3xl">Projetos</h1>
-                <CardProjetos />             
+                <h1 className="my-4 text-center uppercase text-xl font-semibold md:text-3xl dark:text-branco">Projetos</h1>
+                <CardProjetos darkMode={darkMode}/>             
             </div>
         </section>
     );

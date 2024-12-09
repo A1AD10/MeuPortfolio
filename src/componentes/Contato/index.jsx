@@ -44,12 +44,12 @@ export default function Contato() {
     return (
         <section>
             <div className="h-screen" id="contato">
-                <h1 className="my-4 text-center uppercase text-xl font-semibold md:text-3xl">CONTATO</h1>
+                <h1 className="my-4 text-center uppercase text-xl font-semibold md:text-3xl dark:text-branco">CONTATO</h1>
                 <div className="flex justify-center items-center flex-col text-preto pt-14 pr-3.5 pb-[84px] pl-3.5 md:pb-[70px]">
                     
                     <form className="max-w-[600px] w-11/12 flex flex-col container" onSubmit={sendEmail}>
                         <input 
-                        className="mb-3.5 h-9 rounded divide-solid border-2 border-preto py-0 px-2 focus:outline-none focus:border-azul"
+                        className="mb-3.5 h-9 rounded divide-solid border-2 border-preto py-0 px-2 focus:outline-none focus:border-azul dark:border-darkAzulClaro dark:focus:border-azul dark:bg-gray-200"
                         type="text"
                         placeholder="Digite seu nome"
                         onChange={(e) => setName(e.target.value)}
@@ -57,7 +57,7 @@ export default function Contato() {
                         />
                             
                         <input 
-                        className="mb-3.5 h-9 rounded divide-solid border-2 border-preto py-0 px-2 focus:outline-none focus:border-azul"
+                        className="mb-3.5 h-9 rounded divide-solid border-2 border-preto py-0 px-2 focus:outline-none focus:border-azul dark:border-darkAzulClaro dark:focus:border-azul dark:bg-gray-200"
                         type="text"
                         placeholder="Digite seu email"
                         onChange={(e) => setEmail(e.target.value)}
@@ -65,13 +65,13 @@ export default function Contato() {
                         />
 
                         <textarea 
-                        className="mb-3 rounded-md divide-solid border-2 border-preto p-2 h-28 resize-none focus:outline-none focus:border-azul md:mb-4"
+                        className="mb-3 rounded-md divide-solid border-2 border-preto p-2 h-28 resize-none focus:outline-none focus:border-azul md:mb-4 dark:border-darkAzulClaro dark:focus:border-azul dark:bg-gray-200"
                         placeholder="Digite sua mensagem..."
                         onChange={(e) => setMessage(e.target.value)}
                         value={message}
                         />
 
-                        <input className="h-9 rounded border-0 cursor-pointer bg-preto text-branco text-lg font-semibold transition-transform duration-700 hover:bg-azul hover:scale-[1.01]" type="submit" value="Enviar" />
+                        <input className="h-9 rounded border-0 cursor-pointer bg-preto text-branco text-lg font-semibold transition-transform duration-700 hover:bg-azul hover:scale-[1.01] dark:bg-azul dark:text-branco dark:hover:bg-azulClaro" type="submit" value="Enviar" />
                     </form>
 
                 </div>    

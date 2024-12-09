@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import SvgLink from "../../../assets/svg/SvgLink";
 
-export default function CardProjetos() {
+export default function CardProjetos({ darkMode }) {
     return(
         <div>
             <Swiper
@@ -43,22 +43,22 @@ export default function CardProjetos() {
                 style={{ width: '100%', height: '100%' }}
             >
                 {dataImage.map((item) => (
-                    <SwiperSlide key={item.id} className="swiper-slide bg-branco bg-center rounded-xl border-2 border-gray-300">
+                    <SwiperSlide key={item.id} className="swiper-slide bg-branco bg-center rounded-xl border-2 border-gray-300 dark:bg-dark dark:border-azulClaro">
                         <div className="p-2 lg:p-2.5">
-                            <img src={item.image} alt={`Projeto ${item.id}`} className="rounded-xl border-2 border-gray-200" />
+                            <img src={item.image} alt={`Projeto ${item.id}`} className="rounded-xl border-2 border-gray-200 dark:border-preto" />
                         </div>
-                        <h1 className="flex justify-center items-center py-0.5 text-xs font-semibold lg:text-xl">{item.titulo}</h1>
+                        <h1 className="flex justify-center items-center py-0.5 text-xs font-semibold lg:text-xl dark:text-darkAzulClaro">{item.titulo}</h1>
 
                         <div className="p-2.5 flex justify-between items-center">
 
                             <div className="flex gap-2">
                                 {item.technologias.map((tech, index) => (
-                                    <img key={index} src={tech} alt={`Tecnologia ${index}`} className="w-4 h-4 lg:w-9 lg:h-9" />
+                                    <img key={index} src={tech} alt={`Tecnologia ${index}`} className="w-4 h-4 lg:w-9 lg:h-9 " />
                                 ))}
                             </div>
 
                             <div className="w-5 lg:w-8">
-                                <div><a href={item.endereco} target="_blank"><SvgLink color={'#000'} /></a></div>
+                                <div><a href={item.endereco} target="_blank"><SvgLink color={darkMode ? '#fff' : '#000'} /></a></div>
                             </div>
 
                         </div>

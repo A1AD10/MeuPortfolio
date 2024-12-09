@@ -10,7 +10,7 @@ export default function Habilidades() {
     return (
         <section className="md:h-screen">
             <div className="section" id="habilidades">
-                <h1 className="my-4 text-center uppercase text-xl font-semibold md:text-3xl">Habilidades</h1>
+                <h1 className="my-4 text-center uppercase text-xl font-semibold md:text-3xl dark:text-branco">Habilidades</h1>
                 <div className="flex flex-wrap gap-6 p-6 justify-center lg:w-[95%] lg:mx-auto xl:w-[75%]">
                     {skills.map((skill, index) => (
                         <div
@@ -24,7 +24,7 @@ export default function Habilidades() {
                     ))}
                 </div>
                 
-                <div className="mt-6 p-6 text-center text-preto rounded-md">
+                <div className="mt-6 p-6 text-center text-preto rounded-md dark:text-branco">
                     <p className="sm:block hidden text-lg font-semibold">{hoveredCard !== null ? cardTexts[hoveredCard] : ""}</p>
                 </div>
             </div>
