@@ -9,6 +9,7 @@ import Organo from '../../img/organo.png';
 import Space from '../../img/spaceapp.png';
 import Serenatto from '../../img/serenatto.png';
 import Meteora from '../../img/meteora.png';
+import Pokemon from '../../img/pokemon.png';
 
 
 
@@ -155,4 +156,13 @@ export const dataImage = [
         ]
     },
 
+    { 
+        id: "12", 
+        endereco: "https://pokemon-weld-mu.vercel.app/",
+        image: Pokemon,
+        titulo: "Pokémon",
+        technologias: [
+            ReactJs
+        ]
+    },
 ];
