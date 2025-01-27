@@ -162,7 +162,8 @@ export const dataImage = [
         image: Pokemon,
         titulo: "Pokémon",
         technologias: [
-            ReactJs
+            ReactJs,
+            Vite
         ]
     },
 ];
