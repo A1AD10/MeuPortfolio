@@ -8,5 +8,6 @@ export const cardTexts = [
     "Sass: Pré-processador CSS que permite o uso de variáveis, mixins e outras funcionalidades.",
     "TypeScript: Superset do JavaScript que adiciona tipagem estática.",
     "Styled Components: Biblioteca JavaScript que permite escrever CSS dentro do código, de forma modular e dinâmica.",
-    "Vite: ferramenta de build rápida e eficiente para aplicações web, focada em desenvolvimento e otimização de produção"
+    "Vite: ferramenta de build rápida e eficiente para aplicações web, focada em desenvolvimento e otimização de produção.",
+    "Material-UI: biblioteca de componentes de interface de usuário, baseada nas diretrizes do Material Design do Google."
 ];

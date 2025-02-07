@@ -8,6 +8,7 @@ import SvgSass from '../../../../assets/svg/SvgSass'
 import SvgTypescript from '../../../../assets/svg/SvgTypescript'
 import SvgStyled from '../../../../assets/svg/SvgStyled'
 import SvgVite from '../../../../assets/svg/SvgVite'
+import SvgMaterial from '../../../../assets/svg/SvgMaterial'
 
 export const skills = [
   { nome: "HTML5", logo: <SvgHtml /> },
@@ -19,5 +20,6 @@ export const skills = [
   { nome: "Sass", logo: <SvgSass /> },
   { nome: "Typescript", logo: <SvgTypescript /> },
   { nome: "Styled Components", logo: <SvgStyled /> },
-  { nome: "Vite", logo: <SvgVite /> }
+  { nome: "Vite", logo: <SvgVite /> },
+  { nome: "Material-UI", logo: <SvgMaterial /> }
 ];

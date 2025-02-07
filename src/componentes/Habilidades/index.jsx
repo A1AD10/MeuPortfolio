@@ -24,7 +24,7 @@ export default function Habilidades() {
                     ))}
                 </div>
                 
-                <div className="mt-6 p-6 text-center text-preto rounded-md dark:text-branco">
+                <div className="mt-6 p-2 text-center text-preto rounded-md dark:text-branco">
                     <p className="sm:block hidden text-lg font-semibold">{hoveredCard !== null ? cardTexts[hoveredCard] : ""}</p>
                 </div>
             </div>

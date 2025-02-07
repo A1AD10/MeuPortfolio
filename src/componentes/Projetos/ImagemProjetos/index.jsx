@@ -24,6 +24,7 @@ import Sass from '/icones/sass.svg';
 import Typescript from '/icones/typescript.svg';
 import Styled from '/icones/styled-components.svg';
 import Vite from '/icones/vitejs.svg';
+import Material from '/icones/materialui.svg';
 
 
 
@@ -163,7 +164,8 @@ export const dataImage = [
         titulo: "Pokémon",
         technologias: [
             ReactJs,
-            Vite
+            Vite,
+            Material
         ]
     },
 ];
