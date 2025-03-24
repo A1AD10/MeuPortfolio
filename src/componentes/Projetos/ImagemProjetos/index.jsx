@@ -43,7 +43,7 @@ export const dataImage = [
 
     { 
         id: "2", 
-        endereco: "https://jogo-numero-secreto-a1ad10.vercel.app/",
+        endereco: "https://jogo-numero-secreto-n3bqfg3nm-a1ad10s-projects.vercel.app/",
         image: Numero, 
         titulo: "Número Secreto",
         technologias: [
