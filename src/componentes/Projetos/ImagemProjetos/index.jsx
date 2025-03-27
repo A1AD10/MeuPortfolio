@@ -3,15 +3,12 @@ import Numero from '../../img/jogoNumeroSecreto.png';
 import Analisador from '../../img/analisadorDeNumeros.png';
 import Calmaria from '../../img/calmaria.png';
 import Cine from '../../img/cinetag.png';
-import Login from '../../img/login.png';
 import News from '../../img/newsletter.png';
 import Organo from '../../img/organo.png';
 import Space from '../../img/spaceapp.png';
 import Serenatto from '../../img/serenatto.png';
 import Meteora from '../../img/meteora.png';
 import Pokemon from '../../img/pokemon.png';
-
-
 
 
 import Html from '/icones/html5.svg';
@@ -89,17 +86,6 @@ export const dataImage = [
 
     { 
         id: "6", 
-        endereco: "https://a1ad10.github.io/login/",
-        image: Login, 
-        titulo: "Tela de Login",
-        technologias: [
-            Html,
-            Css
-        ]
-    },
-
-    { 
-        id: "7", 
         endereco: "https://alura-newsletter-lilac-one.vercel.app/",
         image: News,
         titulo: "Alura Newsletter",
@@ -110,7 +96,7 @@ export const dataImage = [
     },
 
     { 
-        id: "8", 
+        id: "7", 
         endereco: "https://organo-ts-mocha.vercel.app/",
         image: Organo,
         titulo: "Organo",
@@ -121,7 +107,7 @@ export const dataImage = [
     },
 
     { 
-        id: "9", 
+        id: "8", 
         endereco: "https://space-app-flax-ten.vercel.app/",
         image: Space,
         titulo: "SpaceApp",
@@ -133,7 +119,7 @@ export const dataImage = [
     },
 
     { 
-        id: "10", 
+        id: "9", 
         endereco: "https://serenatto-eight-tau.vercel.app/",
         image: Serenatto,
         titulo: "Serenatto",
@@ -145,7 +131,7 @@ export const dataImage = [
     },
 
     { 
-        id: "11", 
+        id: "10", 
         endereco: "https://meteora-pi-kohl.vercel.app/",
         image: Meteora,
         titulo: "Meteora",
@@ -158,7 +144,7 @@ export const dataImage = [
     },
 
     { 
-        id: "12", 
+        id: "11", 
         endereco: "https://pokemon-weld-mu.vercel.app/",
         image: Pokemon,
         titulo: "Pokémon",
